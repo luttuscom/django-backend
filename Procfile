@@ -1,1 +1,1 @@
-web: gunicorn core.wsgi
+web: waitress-serve.exe --listen=:80 core:wsgi
